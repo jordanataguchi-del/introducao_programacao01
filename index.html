@@ -6,6 +6,21 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        let nome = prompt("insira o seu nome");
+        console.log("nome:" + nome);
+        document.write("seu nome é:" + nome + "<br>") 
+
+
+        let resposta = confirm("confirma o cadastro do seu nome?");
+        if (resposta == true) {
+            document.write ("cadastro feito " + nome)
+        }
+        else {
+            document.write("cadastro não realizado");
+        }
+
     
+        </script>
 </body>
 </html>
